@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: whitesmoke; */
+}
+.navbar{
+    padding: 12px;
+    background-color:whitesmoke;
+    height: 80px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image: url("flipkart-095e08.svg");
+    height: 22px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.add{
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-style: italic;
+}
+.add1{
+    color: #9e9e9e;
+    padding: 0px 4px 0px 0px;
+}
+.add2{
+    color: #ffc200;
+    padding-right: 5px;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content:space-evenly ;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+/* .nav-search:hover{
+    border: 2px solid yellowgreen;
+} */
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.search-input{
+    width: 100%;
+    font-size: 17px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+}
+.search-icon{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1.2rem; */
+    /* background-color: rgb(255, 217, 0); */
+    border-top-left-radius:4px ;
+    border-bottom-left-radius: 4px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left:8px ;
+    /* color: white; */
+}
+
+.box3-logo{
+    /* background-color: antiquewhite; */
+    margin-right: 8px;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.prof{
+    /* background-color: antiquewhite; */
+    margin: 0px 8px 0px 0px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cart-logo{
+    /* background-color: antiquewhite; */
+    margin-right: 8px;
+}
+
+.drop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    height: 24px;
+    width: 24px;
+}
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:whitesmoke;
+    height: 126px;
+    width: 90%;
+    position: absolute;
+    /* margin: 50px; */
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.image1{
+    
+    /* border: 1px solid black; */
+    height: 126px;
+    width: 100%;
+    padding: 12px 12px 8px 24px;
+    cursor: pointer;
+    margin:10px;
+}
+.box-img{
+    background-size: cover;
+    /* display: flex; */
+    height: 64px;
+    width: 64px;
+    align-items: center;
+    /* justify-content: flex-start; */
+}
+.text{
+    display: flex;
+    font-size: 12px;
+    color: #333333;
+    justify-content: flex-start;
+
+}
+.picture{
+    margin-top: 140px;
+    width: 98%;
+    height: 40%;
+    position: absolute;
+    
+    background-size: cover;
+}
+.pic{
+    background-size: cover;
+    margin: 15px;
+    height: 70%;
+    
+    width: 100%;
+}
+.shop{
+    margin-top:350px ;
+    background-color: whitesmoke;
+    height: 80px;
+    padding: 16px 12px;
+}
+.shopping{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    /* margin-top:350px ; */
+    height: 224px;
+    padding: 0px 6px 12px;
+    flex-wrap: wrap;
+}
+.shop1{
+    
+    width: 170px;
+    height: 212px;
+    padding: 6px;
+
+}
+.shop-img{
+    background-size: cover;
+}
+.shop2{
+    
+    background-color: whitesmoke;
+    height: 80px;
+    padding: 16px 12px;
+}
+.more{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 298.4px;
+    padding: 0px 6px 4px;
+    flex-wrap: wrap;
+}
+
+.ess{
+    /* border: 1px solid black; */
+    width: 220.8px;
+    height: 272.8px;
+    padding: 12px 12px 0px;
+    
+}
+.text1{
+    height: 24px;
+    padding: 0px 6px 0px 0px;
+    color: #108934;
+    font-weight: bolder;
+}
+footer{
+    background-color: #333333;
+    height: 384px;
+}
+.foot{
+        /* background-color: #37475a; */
+        color: white;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.85rem;
+}
+.foot-panel{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    line-height: 18px;
+}
+ul{
+    margin-top:20px ;
+}
+
